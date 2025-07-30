@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vue.js SPA с Vue Router</title>
+  <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+  <script src="https://unpkg.com/vue-router@4"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="app">
+    <nav-bar></nav-bar>
+    
+    <main class="page-content">
+      <router-view v-slot="{ Component }">
+        <transition name="fade" mode="out-in">
+          <component :is="Component" />
+        </transition>
+      </router-view>
+    </main>
+    
+    <app-footer></app-footer>
+  </div>
+
+  <script src="src/components/NavBar.js"></script>
+  <script src="src/components/Footer.js"></script>
+  <script src="src/components/HomePage.js"></script>
+  <script src="src/components/AboutPage.js"></script>
+  <script src="src/components/ContactPage.js"></script>
+  <script src="src/components/UserProfile.js"></script>
+  <script src="src/router.js"></script>
+  <script src="src/app.js"></script>
+</body>
+</html>
