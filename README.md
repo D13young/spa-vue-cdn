@@ -8,8 +8,10 @@
   <tr>
     <td><img src="./img/1.JPG" alt="Скриншот 1" width="500"></td>
     <td><img src="./img/2.JPG" alt="Скриншот 2" width="500"></td>
-    <td><img src="./img/3.JPG" alt="Скриншот 1" width="500"></td>
-    <td><img src="./img/4.JPG" alt="Скриншот 2" width="500"></td>
+    <tr>
+    <td><img src="./img/3.JPG" alt="Скриншот 3" width="500"></td>
+    <td><img src="./img/4.JPG" alt="Скриншот 4" width="500"></td>
+  </tr>
   </tr>
 </table>
 
