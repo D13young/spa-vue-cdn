@@ -1,6 +1,10 @@
 # 🌟 __Vue.js SPA with Vue Router__
 
-https://img.shields.io/badge/Vue.js-3.x-42b883?logo=vue.js https://img.shields.io/badge/Vue_Router-4.x-42b883 https://img.shields.io/badge/SPA-%D0%9F%D1%80%D0%B8%D0%BC%D0%B5%D1%80-ff69b4
+https://img.shields.io/badge/Vue.js-3.x-42b883?logo=vue.js
+
+https://img.shields.io/badge/Vue_Router-4.x-42b883
+
+https://img.shields.io/badge/SPA-%D0%9F%D1%80%D0%B8%D0%BC%D0%B5%D1%80-ff69b4
 
 Это демонстрационное одностраничное приложение (SPA), созданное с использованием Vue.js 3 и Vue Router 4, которое показывает основные возможности маршрутизации в Vue-приложениях.
 
